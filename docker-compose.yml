@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  nodejs-app:
+    build: ./node_app
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+    environment:
+      - NODE_ENV=production
+
+  python-app:
+    build: ./python_app
+    ports:
+      - "8000:8000"
+    networks:
+      - app-network
+    depends_on:
+      - nodejs-app
+
+networks:
+  app-network:
+    driver: bridge
