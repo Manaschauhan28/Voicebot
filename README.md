@@ -1,7 +1,7 @@
-# Voice-Based Call Center POC for Swiftly Holdings
+# Voice-Based Call Center POC 
 
 ## Project Overview
-The Proof of Concept (POC) aimed to design a voice-based call center for Swiftly Holdings for handling FAQs and assisting users in performing service requests. This solution leverages advanced AI and speech recognition technologies to provide a seamless, automated customer service experience.
+The Proof of Concept (POC) aimed to design a voice-based call center for handling FAQs and assisting users in performing service requests. This solution leverages advanced AI and speech recognition technologies to provide a seamless, automated customer service experience.
 
 ## Project Structure
 ```
